@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
-import { initAccordions, initFlowbite } from 'flowbite';
 
 @Component({
   selector: 'app-root',
@@ -12,13 +11,4 @@ import { initAccordions, initFlowbite } from 'flowbite';
 })
 export class AppComponent {
   title = 'game';
-  
-  ngOnInit() {
-    initFlowbite();
-  }
-
-  ngAfterViewInit() {
-    initAccordions();
-  }
-
 }
