@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { ModalComponent } from '../../components/modal/modal.component';
 import { CasaTabuleiroComponent } from '../../components/casa-tabuleiro/casa-tabuleiro.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 
@@ -7,7 +6,6 @@ import { FooterComponent } from '../../components/footer/footer.component';
   selector: 'app-home',
   standalone: true,
   imports: [
-    ModalComponent,
     CasaTabuleiroComponent,
     FooterComponent
   ],
