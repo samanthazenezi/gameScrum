@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CasaTabuleiroComponent } from '../../components/casa-tabuleiro/casa-tabuleiro.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { RoletaComponent } from '../../components/roleta/roleta.component';
@@ -16,4 +16,5 @@ import { RoletaComponent } from '../../components/roleta/roleta.component';
 })
 export class HomeComponent {
 
+  @Input() nome : string = '';
 }
